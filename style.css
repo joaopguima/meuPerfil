@@ -1,0 +1,57 @@
+body, html {
+    background-color: line;
+    background-image:linear-gradient(to bottom, #ffffff, rgb(0, 0, 0));
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */  
+    
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.corTexto {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+.imagem-circular {
+    width: 350px; /* Ajuste o tamanho conforme necessário */
+    height: 350px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%; /* Torna a imagem circular */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner sem distorção */
+}
+
+.imagem-circular:hover {
+    filter: grayscale(45%); /* Aplica o efeito acinzentado ao passar o mouse */
+}
+
+#menu li {
+    display: inline;
+    margin: 30px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover{
+    color: black;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+
+
