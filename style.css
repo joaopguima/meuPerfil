@@ -1,6 +1,5 @@
 body, html {
-    background-color: line;
-    background-image:linear-gradient(to bottom, #ffffff, rgb(0, 0, 0));
+    background-color: #ffffff;
     background-size: cover; /* Ajusta a imagem para cobrir toda a área */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */  
@@ -51,6 +50,21 @@ body, html {
 
 .p-30 {
     padding: 30px;
+}
+
+.top-section {
+    background-image:linear-gradient(to bottom, #ffffff, rgb(0, 0, 0));
+}
+
+.icones {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; /* Torna a imagem circular */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner sem distorção */
+}
+
+.center {
+    text-align: center;
 }
 
 
