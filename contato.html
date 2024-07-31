@@ -26,34 +26,38 @@
     <h1 class="center">
         Entre em contato comigo:
     </h1>
+    <form>
+        <div class="container">
+            <div class="p-30">
+                <form action="">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" onkeyup="validaNome()">
+                    <div id="txtNome"></div>
+                    <br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" onkeyup="validaEmail()">
+                    <div id="txtEmail"></div>
+                    <br>
+                    <label for="assunto">Assunto:</label><br>
+                    <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                    <div id="txtAssunto"></div>
+                    <br>
+                    <br>
+                    <div>
+                        <button onclick="enviar()">Enviar</button>
+                    </div>
+            </div>
+            <div>
+    </form>
 
-    <div class="container">
-        <div class="p-30">
-            <form action="">
-                <label for="nome">Nome:</label><br>
-                <input type="text" id="nome" onkeyup="validaNome()">
-                <div id="txtNome"></div>
-                <br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" onkeyup="validaEmail()">
-                <div id="txtEmail"></div>
-                <br>
-                <label for="assunto">Assunto:</label><br>
-                <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
-                <div id="txtAssunto"></div>
-                <br>
-                <br>
-                <button onclick="enviar()">Enviar</button>
-        </div>
-        <div>
+    <p>Itaquera</p>
+    <p>São Paulo - SP</p>
 
-            <p>Itaquera</p>
-            <p>São Paulo - SP</p>
-
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.731016306769!2d-46.473644922259226!3d-23.54217506089225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66dbb0e79fcb%3A0xfeb932f5fbd4a42a!2sCorinthians%20-%20Itaquera!5e0!3m2!1spt-BR!2sbr!4v1722015816457!5m2!1spt-BR!2sbr"
-                width="400" height="250" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" onmousemove="mapaZoom()" onmouseout="mapaNormal()"
-                 id="mapa"></iframe>
-        </div>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.731016306769!2d-46.473644922259226!3d-23.54217506089225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66dbb0e79fcb%3A0xfeb932f5fbd4a42a!2sCorinthians%20-%20Itaquera!5e0!3m2!1spt-BR!2sbr!4v1722015816457!5m2!1spt-BR!2sbr"
+        width="400" height="250" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+        onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
+    </div>
     </div>
 
     <script src="assets/script/script.js"></script>
